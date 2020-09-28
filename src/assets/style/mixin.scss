@@ -1,0 +1,14 @@
+/** sass mixin-function */
+/** 文字n行省略 ellipsis($row) 默认超过一行后显示省略 */
+@mixin ellipsis($row: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  -webkit-line-clamp: $row;
+  -webkit-box-orient: vertical;
+  @if $row <= 1 {
+    white-space: nowrap;
+  }
+}
