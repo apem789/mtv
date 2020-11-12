@@ -1,6 +1,6 @@
 # mtv
 + 技术栈: vue3.0 + vue-router4.0 + vuex4.0 + typescript
-+ ui: vant3.0.0
++ ui: vant3.0.0 
 
 
 ## 拉取项目（master）
